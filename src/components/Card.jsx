@@ -1,8 +1,8 @@
 import {Link} from 'react-router-dom';
-function Card({data}) {
+function Card({country}) {
   return (
-    <Link to={`country/${data.cca3}`}>
-      <div className='card'>{data.name.common}</div>
+    <Link to={`country/${country.cca3}`}>
+      <div className='card'>{country.name.common}</div>
     </Link>
   );
 }
