@@ -28,6 +28,8 @@ function Countries({data}) {
         .filter((item) => {
           if (item.name.common.toLowerCase().includes(state)) {
             return item;
+          }else{
+            return "";
           }
         })
         .map((country, index) => (
