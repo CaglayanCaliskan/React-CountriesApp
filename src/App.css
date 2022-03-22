@@ -13,9 +13,11 @@ body {
   background-color: rgb(240, 238, 235);
 }
 header {
-  margin: 1rem 0px;
   background-color: royalblue;
   color: white;
+}
+header:hover {
+  color: pink;
 }
 .container {
   width: 80%;
@@ -25,11 +27,14 @@ header {
   align-items: center;
 }
 .card {
-  width: 450px;
+  width: 400px;
   border-radius: 5px;
   margin: 10px 0px;
   background-color: salmon;
   color: white;
+}
+.card:hover {
+  opacity: 0.5;
 }
 a {
   text-decoration: none;
